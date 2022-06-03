@@ -1,8 +1,14 @@
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .container, .image, .left, .lw, .right{
     width: 100%;
   }
   
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 #name{
     background-color: black;
@@ -13,7 +19,7 @@
 }
 #links{
     background-color: grey;
-    padding: 6px;
+    padding: 10px;
     padding-left: 150px;
 }
 span {
@@ -31,12 +37,13 @@ a:link{
    background-position: center;
    background-repeat: no-repeat;
    width: 100%;
-   height: 800px;
+   height: 900px;
    background-size: cover;
    color: rgb(246, 247, 248);
-   margin: 0px;
    text-align: center;
-   padding-top: 200px;
+   padding-top: 300px;
+   padding-bottom: 200px;
+   
 }
 p {
     padding: 7px;
@@ -47,15 +54,13 @@ p {
 .container {
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
-    margin-top: 0px;
     background-color: gray;
   }
   
   .left {
     background-color:gray;
     font-weight: bold;
-    
+    width: 60%;
     font-family: jazz let;
     line-height: 1.5;
     padding-left: 30px;
@@ -64,7 +69,7 @@ p {
   .right {
     background-color:rgb(3, 3, 24);
     margin: 25px;
-
+    width: 30%;
     font-weight: bold;
     font-family:jazz let;
     line-height: 1.5;
